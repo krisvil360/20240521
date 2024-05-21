@@ -24,6 +24,7 @@ print('compLib.keys :')
 print(compLib.keys())
 project = cloudpss.Model.fetch('model/kris360/modelTest')
 
+print('hello')
 
 # 创建断路器元件函数
 def AddBreaker(ID, Name, Description, NormalOpen, RatedCurrent, BreakingCapacity, PSRType, EquipmentContainer,
